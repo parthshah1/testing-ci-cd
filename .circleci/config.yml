@@ -21,6 +21,10 @@ jobs:
           command: |
             . venv/bin/activate
             python3 tests.py
+      - run:
+          name: test
+          command: |
+            ls -la
       - store_artifacts:
           path: test-reports/
           destination: python_app

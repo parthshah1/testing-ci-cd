@@ -1,1 +1,1 @@
-Flask
+FlaskFLASK_APP=hello.py flask run
